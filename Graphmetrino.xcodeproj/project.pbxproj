@@ -14,6 +14,12 @@
 		D97879C61F082DA4000DFBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97879C41F082DA4000DFBA5 /* LaunchScreen.storyboard */; };
 		D97879D11F082DA5000DFBA5 /* GraphmetrinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97879D01F082DA5000DFBA5 /* GraphmetrinoTests.swift */; };
 		D97879DC1F082DA5000DFBA5 /* GraphmetrinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97879DB1F082DA5000DFBA5 /* GraphmetrinoUITests.swift */; };
+		D97879EC1F082F5F000DFBA5 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97879EB1F082F5F000DFBA5 /* OpenCVWrapper.mm */; };
+		D97879EF1F082FC4000DFBA5 /* OpenCVImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */; };
+		D97879F21F083071000DFBA5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97879F11F083071000DFBA5 /* opencv2.framework */; };
+		D97879F51F08329C000DFBA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97879F41F08329C000DFBA5 /* CoreGraphics.framework */; };
+		D9A027381F084C5D004D9C9F /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027371F084C5D004D9C9F /* ProcessViewController.swift */; };
+		D9A0273A1F084EEC004D9C9F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027391F084EEC004D9C9F /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,16 @@
 		D97879D71F082DA5000DFBA5 /* GraphmetrinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphmetrinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97879DB1F082DA5000DFBA5 /* GraphmetrinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphmetrinoUITests.swift; sourceTree = "<group>"; };
 		D97879DD1F082DA5000DFBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97879E91F082F5F000DFBA5 /* Graphmetrino-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Graphmetrino-Bridging-Header.h"; sourceTree = "<group>"; };
+		D97879EA1F082F5F000DFBA5 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		D97879EB1F082F5F000DFBA5 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		D97879ED1F082FC4000DFBA5 /* OpenCVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVImage.h; sourceTree = "<group>"; };
+		D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVImage.mm; sourceTree = "<group>"; };
+		D97879F01F083005000DFBA5 /* opencv-headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv-headers.h"; sourceTree = "<group>"; };
+		D97879F11F083071000DFBA5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		D97879F41F08329C000DFBA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9A027371F084C5D004D9C9F /* ProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
+		D9A027391F084EEC004D9C9F /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97879F51F08329C000DFBA5 /* CoreGraphics.framework in Frameworks */,
+				D97879F21F083071000DFBA5 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,7 @@
 				D97879CF1F082DA5000DFBA5 /* GraphmetrinoTests */,
 				D97879DA1F082DA5000DFBA5 /* GraphmetrinoUITests */,
 				D97879B91F082DA4000DFBA5 /* Products */,
+				D97879F31F08329C000DFBA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,15 @@
 				D97879C21F082DA4000DFBA5 /* Assets.xcassets */,
 				D97879C41F082DA4000DFBA5 /* LaunchScreen.storyboard */,
 				D97879C71F082DA4000DFBA5 /* Info.plist */,
+				D97879EA1F082F5F000DFBA5 /* OpenCVWrapper.h */,
+				D97879EB1F082F5F000DFBA5 /* OpenCVWrapper.mm */,
+				D97879E91F082F5F000DFBA5 /* Graphmetrino-Bridging-Header.h */,
+				D97879ED1F082FC4000DFBA5 /* OpenCVImage.h */,
+				D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */,
+				D97879F01F083005000DFBA5 /* opencv-headers.h */,
+				D97879F11F083071000DFBA5 /* opencv2.framework */,
+				D9A027371F084C5D004D9C9F /* ProcessViewController.swift */,
+				D9A027391F084EEC004D9C9F /* HistoryViewController.swift */,
 			);
 			path = Graphmetrino;
 			sourceTree = "<group>";
@@ -123,6 +151,14 @@
 				D97879DD1F082DA5000DFBA5 /* Info.plist */,
 			);
 			path = GraphmetrinoUITests;
+			sourceTree = "<group>";
+		};
+		D97879F31F08329C000DFBA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97879F41F08329C000DFBA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,8 @@
 				TargetAttributes = {
 					D97879B71F082DA4000DFBA5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 334767C6XM;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					D97879CB1F082DA5000DFBA5 = {
@@ -260,7 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97879BE1F082DA4000DFBA5 /* ViewController.swift in Sources */,
+				D9A027381F084C5D004D9C9F /* ProcessViewController.swift in Sources */,
 				D97879BC1F082DA4000DFBA5 /* AppDelegate.swift in Sources */,
+				D9A0273A1F084EEC004D9C9F /* HistoryViewController.swift in Sources */,
+				D97879EF1F082FC4000DFBA5 /* OpenCVImage.mm in Sources */,
+				D97879EC1F082F5F000DFBA5 /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +456,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = 334767C6XM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Graphmetrino",
+				);
 				INFOPLIST_FILE = Graphmetrino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ovt.Graphmetrino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Graphmetrino/Graphmetrino-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +477,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				DEVELOPMENT_TEAM = 334767C6XM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Graphmetrino",
+				);
 				INFOPLIST_FILE = Graphmetrino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ovt.Graphmetrino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Graphmetrino/Graphmetrino-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +566,7 @@
 				D97879E21F082DA5000DFBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D97879E31F082DA5000DFBA5 /* Build configuration list for PBXNativeTarget "GraphmetrinoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +575,7 @@
 				D97879E51F082DA5000DFBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D97879E61F082DA5000DFBA5 /* Build configuration list for PBXNativeTarget "GraphmetrinoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +584,7 @@
 				D97879E81F082DA5000DFBA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
