@@ -16,10 +16,9 @@
 		D97879DC1F082DA5000DFBA5 /* GraphmetrinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97879DB1F082DA5000DFBA5 /* GraphmetrinoUITests.swift */; };
 		D97879EC1F082F5F000DFBA5 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97879EB1F082F5F000DFBA5 /* OpenCVWrapper.mm */; };
 		D97879EF1F082FC4000DFBA5 /* OpenCVImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */; };
-		D97879F21F083071000DFBA5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97879F11F083071000DFBA5 /* opencv2.framework */; };
-		D97879F51F08329C000DFBA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97879F41F08329C000DFBA5 /* CoreGraphics.framework */; };
 		D9A027381F084C5D004D9C9F /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027371F084C5D004D9C9F /* ProcessViewController.swift */; };
 		D9A0273A1F084EEC004D9C9F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027391F084EEC004D9C9F /* HistoryViewController.swift */; };
+		D9A0273E1F086464004D9C9F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A0273D1F086464004D9C9F /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +58,9 @@
 		D97879ED1F082FC4000DFBA5 /* OpenCVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVImage.h; sourceTree = "<group>"; };
 		D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVImage.mm; sourceTree = "<group>"; };
 		D97879F01F083005000DFBA5 /* opencv-headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv-headers.h"; sourceTree = "<group>"; };
-		D97879F11F083071000DFBA5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		D97879F41F08329C000DFBA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D9A027371F084C5D004D9C9F /* ProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
 		D9A027391F084EEC004D9C9F /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D9A0273D1F086464004D9C9F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97879F51F08329C000DFBA5 /* CoreGraphics.framework in Frameworks */,
-				D97879F21F083071000DFBA5 /* opencv2.framework in Frameworks */,
+				D9A0273E1F086464004D9C9F /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +125,6 @@
 				D97879ED1F082FC4000DFBA5 /* OpenCVImage.h */,
 				D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */,
 				D97879F01F083005000DFBA5 /* opencv-headers.h */,
-				D97879F11F083071000DFBA5 /* opencv2.framework */,
 				D9A027371F084C5D004D9C9F /* ProcessViewController.swift */,
 				D9A027391F084EEC004D9C9F /* HistoryViewController.swift */,
 			);
@@ -156,7 +152,7 @@
 		D97879F31F08329C000DFBA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D97879F41F08329C000DFBA5 /* CoreGraphics.framework */,
+				D9A0273D1F086464004D9C9F /* opencv2.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -462,6 +458,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Graphmetrino",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Graphmetrino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -483,6 +480,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Graphmetrino",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Graphmetrino/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
