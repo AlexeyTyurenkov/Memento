@@ -1,3 +1,4 @@
-language: swift
-xcode_project: Graphmetrino.xcworkspace 
+language: objective-c
+xcode_project: Graphmetrino.xcworkspace
 xcode_scheme: GraphmetrinoTests
+osx_image: xcode8.3
