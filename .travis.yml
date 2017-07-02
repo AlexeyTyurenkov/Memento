@@ -2,4 +2,6 @@ language: objective-c
 xcode_project: Graphmetrino.xcworkspace
 xcode_scheme: GraphmetrinoTests
 osx_image: xcode8.3
-script: xcodebuild test -workspace Graphmetrino.xcworkspace -scheme GraphmetrinoTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script:
+  - pod install 
+  - xcodebuild test -workspace Graphmetrino.xcworkspace -scheme GraphmetrinoTests -destination 'platform=iOS Simulator,name=iPhone 6,OS=9.3' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
