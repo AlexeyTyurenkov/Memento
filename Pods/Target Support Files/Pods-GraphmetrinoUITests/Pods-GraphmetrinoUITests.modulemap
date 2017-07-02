@@ -1,0 +1,6 @@
+framework module Pods_GraphmetrinoUITests {
+  umbrella header "Pods-GraphmetrinoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

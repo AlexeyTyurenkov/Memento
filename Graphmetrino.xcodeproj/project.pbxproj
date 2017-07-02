@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EE7F3F585D3ACCC5A484004 /* Pods_GraphmetrinoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076BE28BC9D75CEAB43062EC /* Pods_GraphmetrinoUITests.framework */; };
+		5D172F3B5EAE2779BC37886D /* Pods_GraphmetrinoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDBE6CAF7A0290BD831CFA43 /* Pods_GraphmetrinoTests.framework */; };
+		63B563F237431B94D9E6C60E /* Pods_Graphmetrino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA4BB0ED6057C42C8E8AEC9 /* Pods_Graphmetrino.framework */; };
 		D97879BC1F082DA4000DFBA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97879BB1F082DA4000DFBA5 /* AppDelegate.swift */; };
 		D97879BE1F082DA4000DFBA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97879BD1F082DA4000DFBA5 /* ViewController.swift */; };
 		D97879C11F082DA4000DFBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97879BF1F082DA4000DFBA5 /* Main.storyboard */; };
@@ -18,7 +21,6 @@
 		D97879EF1F082FC4000DFBA5 /* OpenCVImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D97879EE1F082FC4000DFBA5 /* OpenCVImage.mm */; };
 		D9A027381F084C5D004D9C9F /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027371F084C5D004D9C9F /* ProcessViewController.swift */; };
 		D9A0273A1F084EEC004D9C9F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A027391F084EEC004D9C9F /* HistoryViewController.swift */; };
-		D9A0273E1F086464004D9C9F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A0273D1F086464004D9C9F /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076BE28BC9D75CEAB43062EC /* Pods_GraphmetrinoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphmetrinoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EE8228BC4316C8E4698E69 /* Pods-GraphmetrinoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphmetrinoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphmetrinoUITests/Pods-GraphmetrinoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1314069409F1B13EF9901F21 /* Pods-GraphmetrinoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphmetrinoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphmetrinoTests/Pods-GraphmetrinoTests.release.xcconfig"; sourceTree = "<group>"; };
+		13A43E645C545534C57A554D /* Pods-GraphmetrinoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphmetrinoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphmetrinoUITests/Pods-GraphmetrinoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15185970886E1DB175D38D75 /* Pods-Graphmetrino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphmetrino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Graphmetrino/Pods-Graphmetrino.debug.xcconfig"; sourceTree = "<group>"; };
+		1CA4BB0ED6057C42C8E8AEC9 /* Pods_Graphmetrino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Graphmetrino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		341EA061F41CF41406DF1986 /* Pods-GraphmetrinoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphmetrinoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphmetrinoTests/Pods-GraphmetrinoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CECDED103E0C58BE83195D43 /* Pods-Graphmetrino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Graphmetrino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Graphmetrino/Pods-Graphmetrino.release.xcconfig"; sourceTree = "<group>"; };
 		D97879B81F082DA4000DFBA5 /* Graphmetrino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphmetrino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97879BB1F082DA4000DFBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D97879BD1F082DA4000DFBA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +70,7 @@
 		D97879F01F083005000DFBA5 /* opencv-headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencv-headers.h"; sourceTree = "<group>"; };
 		D9A027371F084C5D004D9C9F /* ProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
 		D9A027391F084EEC004D9C9F /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		D9A0273D1F086464004D9C9F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		DDBE6CAF7A0290BD831CFA43 /* Pods_GraphmetrinoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphmetrinoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A0273E1F086464004D9C9F /* opencv2.framework in Frameworks */,
+				63B563F237431B94D9E6C60E /* Pods_Graphmetrino.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D172F3B5EAE2779BC37886D /* Pods_GraphmetrinoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE7F3F585D3ACCC5A484004 /* Pods_GraphmetrinoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97D0D4246A62ABADC733FC79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15185970886E1DB175D38D75 /* Pods-Graphmetrino.debug.xcconfig */,
+				CECDED103E0C58BE83195D43 /* Pods-Graphmetrino.release.xcconfig */,
+				341EA061F41CF41406DF1986 /* Pods-GraphmetrinoTests.debug.xcconfig */,
+				1314069409F1B13EF9901F21 /* Pods-GraphmetrinoTests.release.xcconfig */,
+				08EE8228BC4316C8E4698E69 /* Pods-GraphmetrinoUITests.debug.xcconfig */,
+				13A43E645C545534C57A554D /* Pods-GraphmetrinoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D97879AF1F082DA3000DFBA5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,7 @@
 				D97879DA1F082DA5000DFBA5 /* GraphmetrinoUITests */,
 				D97879B91F082DA4000DFBA5 /* Products */,
 				D97879F31F08329C000DFBA5 /* Frameworks */,
+				97D0D4246A62ABADC733FC79 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,7 +178,9 @@
 		D97879F31F08329C000DFBA5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D9A0273D1F086464004D9C9F /* opencv2.framework */,
+				1CA4BB0ED6057C42C8E8AEC9 /* Pods_Graphmetrino.framework */,
+				DDBE6CAF7A0290BD831CFA43 /* Pods_GraphmetrinoTests.framework */,
+				076BE28BC9D75CEAB43062EC /* Pods_GraphmetrinoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97879E01F082DA5000DFBA5 /* Build configuration list for PBXNativeTarget "Graphmetrino" */;
 			buildPhases = (
+				09505D965FD9231474ADB7DC /* [CP] Check Pods Manifest.lock */,
 				D97879B41F082DA4000DFBA5 /* Sources */,
 				D97879B51F082DA4000DFBA5 /* Frameworks */,
 				D97879B61F082DA4000DFBA5 /* Resources */,
+				61ED2551B87A4A0EDC5F0AEB /* [CP] Embed Pods Frameworks */,
+				826EE3AB2DBC2E7E326F1207 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97879E31F082DA5000DFBA5 /* Build configuration list for PBXNativeTarget "GraphmetrinoTests" */;
 			buildPhases = (
+				8C51AA01786722D18C1D22E6 /* [CP] Check Pods Manifest.lock */,
 				D97879C81F082DA5000DFBA5 /* Sources */,
 				D97879C91F082DA5000DFBA5 /* Frameworks */,
 				D97879CA1F082DA5000DFBA5 /* Resources */,
+				50E403AD2C244E6DD8364E24 /* [CP] Embed Pods Frameworks */,
+				02EE9D0865911CFADEF017D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97879E61F082DA5000DFBA5 /* Build configuration list for PBXNativeTarget "GraphmetrinoUITests" */;
 			buildPhases = (
+				0A1C68748CC3AE11B52BC9C7 /* [CP] Check Pods Manifest.lock */,
 				D97879D31F082DA5000DFBA5 /* Sources */,
 				D97879D41F082DA5000DFBA5 /* Frameworks */,
 				D97879D51F082DA5000DFBA5 /* Resources */,
+				9376C9C5054493D385DA530A /* [CP] Embed Pods Frameworks */,
+				9FF6DCF28D5C6F3D03F8CDFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +324,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02EE9D0865911CFADEF017D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphmetrinoTests/Pods-GraphmetrinoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09505D965FD9231474ADB7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A1C68748CC3AE11B52BC9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50E403AD2C244E6DD8364E24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphmetrinoTests/Pods-GraphmetrinoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61ED2551B87A4A0EDC5F0AEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graphmetrino/Pods-Graphmetrino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826EE3AB2DBC2E7E326F1207 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Graphmetrino/Pods-Graphmetrino-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C51AA01786722D18C1D22E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9376C9C5054493D385DA530A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphmetrinoUITests/Pods-GraphmetrinoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF6DCF28D5C6F3D03F8CDFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphmetrinoUITests/Pods-GraphmetrinoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D97879B41F082DA4000DFBA5 /* Sources */ = {
@@ -394,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -439,7 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -450,6 +625,7 @@
 		};
 		D97879E11F082DA5000DFBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15185970886E1DB175D38D75 /* Pods-Graphmetrino.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -472,6 +648,7 @@
 		};
 		D97879E21F082DA5000DFBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECDED103E0C58BE83195D43 /* Pods-Graphmetrino.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -493,6 +670,7 @@
 		};
 		D97879E41F082DA5000DFBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341EA061F41CF41406DF1986 /* Pods-GraphmetrinoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +685,7 @@
 		};
 		D97879E51F082DA5000DFBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1314069409F1B13EF9901F21 /* Pods-GraphmetrinoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +700,7 @@
 		};
 		D97879E71F082DA5000DFBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EE8228BC4316C8E4698E69 /* Pods-GraphmetrinoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraphmetrinoUITests/Info.plist;
@@ -534,6 +714,7 @@
 		};
 		D97879E81F082DA5000DFBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A43E645C545534C57A554D /* Pods-GraphmetrinoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GraphmetrinoUITests/Info.plist;

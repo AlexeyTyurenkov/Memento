@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface OpenCVWrapper : NSObject
+
+- (instancetype)initWithImage:(UIImage *)image;
+- (BOOL)recognize;
+- (UIImage *)processedImage;
 
 @end

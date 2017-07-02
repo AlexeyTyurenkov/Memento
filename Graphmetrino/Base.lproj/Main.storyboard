@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
-        <!--Process View Controller-->
+        <!--Process Image-->
         <scene sceneID="8mc-Uy-Kgf">
             <objects>
-                <viewController id="n5H-Fx-bNv" customClass="ProcessViewController" customModule="Graphmetrino" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Process Image" id="n5H-Fx-bNv" customClass="ProcessViewController" customModule="Graphmetrino" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YMq-vl-elf"/>
                         <viewControllerLayoutGuide type="bottom" id="fVM-Va-88c"/>
@@ -108,6 +108,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ont-9F-4Wa">
                                 <rect key="frame" x="187.5" y="254.5" width="187.5" height="187.5"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIt-28-Ylo">
+                                <rect key="frame" x="-1" y="254.5" width="188" height="187.5"/>
+                                <state key="normal" title="Process Image"/>
+                                <connections>
+                                    <action selector="processImage:" destination="n5H-Fx-bNv" eventType="touchUpInside" id="FQJ-1A-921"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -115,7 +122,11 @@
                             <constraint firstItem="ont-9F-4Wa" firstAttribute="top" secondItem="LqW-0n-bBL" secondAttribute="bottom" constant="3" id="9Q7-hr-hMS"/>
                             <constraint firstItem="LqW-0n-bBL" firstAttribute="width" secondItem="9yo-m0-MtS" secondAttribute="width" multiplier="1:2" id="HpT-GT-dAe"/>
                             <constraint firstAttribute="trailing" secondItem="ont-9F-4Wa" secondAttribute="trailing" id="LNG-Je-OMq"/>
+                            <constraint firstItem="sIt-28-Ylo" firstAttribute="centerX" secondItem="LqW-0n-bBL" secondAttribute="centerX" id="Mrt-Tk-HVo"/>
+                            <constraint firstItem="sIt-28-Ylo" firstAttribute="centerY" secondItem="ont-9F-4Wa" secondAttribute="centerY" id="Rvl-0U-ocf"/>
+                            <constraint firstItem="sIt-28-Ylo" firstAttribute="height" secondItem="ont-9F-4Wa" secondAttribute="height" id="aYt-eH-Jxw"/>
                             <constraint firstItem="LqW-0n-bBL" firstAttribute="leading" secondItem="9yo-m0-MtS" secondAttribute="leading" id="g7F-uh-Bfv"/>
+                            <constraint firstItem="sIt-28-Ylo" firstAttribute="width" secondItem="LqW-0n-bBL" secondAttribute="width" id="oMH-Fk-Nhf"/>
                             <constraint firstItem="LqW-0n-bBL" firstAttribute="top" secondItem="9yo-m0-MtS" secondAttribute="topMargin" constant="64" id="ri7-SI-YYo"/>
                             <constraint firstItem="ont-9F-4Wa" firstAttribute="height" secondItem="LqW-0n-bBL" secondAttribute="height" id="zaG-9S-Dqi"/>
                         </constraints>

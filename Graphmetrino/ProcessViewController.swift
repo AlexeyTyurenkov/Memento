@@ -10,7 +10,8 @@ import UIKit
 
 class ProcessViewController: UIViewController {
 
-    
+//    let wrapper = OpenCVWrapper()
+
     @IBOutlet weak var originalImage: UIImageView!
     @IBOutlet weak var processedImage: UIImageView!
     var processingImage: UIImage?
@@ -20,6 +21,7 @@ class ProcessViewController: UIViewController {
         originalImage.image = processingImage
         processedImage.image = processingImage
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,8 +29,14 @@ class ProcessViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func processImage(_ sender: Any) {
+        guard let image = processingImage else { return }
+        guard let wrapper = OpenCVWrapper(image: image) else { return }
+        wrapper.recognize()
+        processedImage.image = wrapper.processedImage()
+        
+    }
     
-
     /*
     // MARK: - Navigation
 
