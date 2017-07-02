@@ -12,7 +12,6 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate {
 
     var picker = UIImagePickerController()
-    let wrapper = OpenCVWrapper()
 
     @IBOutlet weak var imageView: UIImageView!
     

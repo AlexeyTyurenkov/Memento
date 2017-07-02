@@ -34,8 +34,8 @@ using namespace std;
     self = [super init];
     if (self != nil) {
         
-        NSString* classifierPath = [[NSBundle mainBundle] pathForResource:@"haarcascade_russian_plate_number" ofType:@"xml"];
-        _classifier.load([classifierPath UTF8String]);
+//        NSString* classifierPath = [[NSBundle mainBundle] pathForResource:@"haarcascade_russian_plate_number" ofType:@"xml"];
+//        _classifier.load([classifierPath UTF8String]);
         
         _image = [[OpenCVImage alloc] initWithUIImage:image];
     }
@@ -47,12 +47,12 @@ using namespace std;
 {
     cv::Mat prepared = [self prepareImage4Recognizing];
     
-    _classifier.detectMultiScale(prepared, _objects);
+//    _classifier.detectMultiScale(prepared, _objects);
     
-    cv::Mat img = _image.cvMat;
-    for (auto it = begin(_objects); it != end(_objects); ++it) {
-        cv::rectangle(img, *it, cv::Scalar(255, 255, 0), 4);
-    }
+//    cv::Mat img = _image.cvMat;
+//    for (auto it = begin(_objects); it != end(_objects); ++it) {
+//        cv::rectangle(img, *it, cv::Scalar(255, 255, 0), 4);
+//    }
     
     return !_objects.empty();
 }
