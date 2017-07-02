@@ -1,0 +1,3 @@
+language: swift
+xcode_project: Graphmetrino.xcworkspace 
+xcode_scheme: GraphmetrinoTests
